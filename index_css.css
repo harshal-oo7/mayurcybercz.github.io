@@ -1,0 +1,15 @@
+h1 {
+	text-align: right;
+	font-family: 'Vibur', cursive;
+	width: 100%;
+	color: lightblue;
+}
+body {
+    background-image: url("index_image.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+}
