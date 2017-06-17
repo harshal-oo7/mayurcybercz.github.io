@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Freshers CSE 2017</title>
+	<link rel="stylesheet" type="text/css" href="resume_form.css">
+	<link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+<h1>Freshers CSE 2017</h1>
+<div class="form">
+<ul>
+	<li><a href="http://www.geca.ac.in" target="_blank">Geca website</a></li>
+	<li><a href="#information" target="_blank">Event information</a></li>
+	<li><a href="#contact" target="_blank">Contact us</a></li>
+</ul>
+<h2>Read the following instructions and fill out the form.</h2>
+<form action="filehandler.php" method="post">
+	First Name:<br>
+	<input type="text" name="firstname"><br>
+	Last name:<br>
+    <input type="text" name="lastname"><br>
+    Gender:<br>
+    <input type="radio" name="gender" value="male" checked>Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    <input type="radio" name="gender" value="other">Other<br>
+    Select any one of the preferences given<br>
+    <select name="career">
+    	<option value="job">9 to 5 Job with safe salary</option>
+    	<option value="entrepreneur">Own a business</option>
+    	<option value="other">Others</option>
+    </select><br>
+    <input class="submit_button" type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

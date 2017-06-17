@@ -1,0 +1,52 @@
+h1 {
+	text-align: right;
+	font-family: 'Vibur', cursive;
+	width: 100%;
+	color: lightblue;
+}
+h2 {
+	font-family: 'Vibur', cursive;
+	width: 100%;
+	color: white;
+}
+body {
+    background-image: url("http://gdurl.com/T29V");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+	list-style-type: none;
+	background-color: black;
+	opacity: 0.5;
+	overflow: hidden;
+	margin: 0;
+    padding: 0;
+}
+li a:hover{
+	opacity: 0.8;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 16px;
+}
+li {
+	float: left;
+}
+.submit_button {
+	padding: 10px;
+	float: center;
+	background-color: lightblue;
+	outline: none;
+	border: none;
+}
+.submit_button:hover {
+	background-color: darkblue;
+	color: white;
+}
+.form {
+	font-family: 'Shadows Into Light', cursive;
+	color: lightblue;
+}
