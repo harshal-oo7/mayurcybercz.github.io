@@ -1,0 +1,55 @@
+def misfitoutput(default1, test_no):
+    dict1 = {}
+    string_alpha = "abcdefghijklmnopgrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    Default = list(string_alpha)
+    for x in range(0, 26):
+        dict1.update({Default[x]: x + 1})
+    for y in range(26, 52):
+        dict1.update({Default[y]: y + 1})
+    checkinglist = dict1.keys()
+    value_container = []
+    for _ in default1:
+        for defa in checkinglist:
+            if _ == defa:
+                value_container.append(dict1[defa])
+    answer = sum(value_container)
+    final1 = answer % 26
+
+    out=0
+    for rep in dict1.values():
+        if final1 == rep:
+            out = rep
+
+    output = "String" + str(test_no) + "is=" + str(dict1[out])
+    return output
+
+
+def checkstring(tester, w):
+    misfit = []
+    string_alpha2 = "abcdefghijklmnopgrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    Default2 = list(string_alpha2)
+    i = 0
+    while (i <= 51):
+        for letter in tester:
+            if Default2[i] == letter:
+                pass
+            else:
+                misfit.append(Default2[i])
+            i = i + 1
+    if len(misfit) == 0:
+        print("Nothing is missing")
+    else:
+        misfitoutput(misfit, w)
+
+
+n = int(input())
+lister = []
+
+lister = list(input())
+
+for strings in lister:
+    for cases in range(n):
+        checkstring(strings, cases)
+
+
+
