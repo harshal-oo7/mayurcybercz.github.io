@@ -1,0 +1,134 @@
+
+.header {
+  text-align: right;
+  width: 100%;
+  color: black;
+}
+
+body {
+    background-image: url("bgmain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nosifer', cursive;
+    overflow-x: hidden;
+}
+div {
+  color: white;
+  font-family: 'Nosifer', cursive;
+}
+.dropbtn{
+    font-family: 'Nosifer', cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(17,17,17,0.5);
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(17,17,17,0.5);
+}
+.content:hover {
+  opacity: 1;
+}
+.content{
+  opacity: 0.7;
+  color: black;
+}
+h3{
+    border-left: 5px solid black;
+}
+.dropdwn {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdwn .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    background-color: inherit;
+}
+.dropdwn:hover .dropdwn-content {
+    display: block;
+}
+.dropdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdwn-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdwn-content a:hover {
+    background-color: #ddd;
+}
+.texts{
+  color: rgba(17,17,17,0.7);
+}
+
+.boxes{
+    color: white;
+    padding: 100px;
+    margin: 2px solid black;
+    text-align: center;
+    background-color: rgba(17,17,17,0.5);
+}
+
+.boxes:hover{
+    color:black;
+}
+
+.button{
+    padding: 10px;
+    background-color: rgba(192,192,192,0.7);
+    font-size:20px;
+    color:white;
+    border:2px solid grey;
+    border-radius:25px;
+    width:40%;
+}
+.button:hover{
+    background-color: rgba(192,192,192,0.2);
+}
+
+input[type="text"]{
+    width:100%;
+    border:5px solid grey;
+    border-radius:15px 50px;
+    height:50px;
+    text-align: center;
+    font-size:25px;
+    opacity:0.5;
+}
+.row{
+    text-align: center;
+    align-content: center;
+}
